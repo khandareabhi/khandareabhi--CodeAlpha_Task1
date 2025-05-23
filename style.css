@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#product-list > div {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+img {
+  border-radius: 8px;
+}
+button {
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: darkgreen;
+}
+
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 15px;
+  background: #f7f7f7;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+#product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+#product-list > div {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 200px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+#product-list > div:hover {
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.2);
+}
+
+#product-list img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #27ae60;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #219150;
+}
+
+a {
+  display: inline-block;
+  margin: 15px 10px 0 10px;
+  color: #2980b9;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
